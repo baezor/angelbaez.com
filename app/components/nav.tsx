@@ -2,13 +2,25 @@ import Link from "next/link";
 
 const navItems = {
   "/": {
-    name: "home",
+    name: "Home",
   },
   "/work": {
-    name: "work",
+    name: "Work",
   },
   "/blog": {
-    name: "blog",
+    name: "Blog",
+  },
+  "https://github.com/baezor": {
+    name: "Github",
+  },
+  "https://www.linkedin.com/in/baezor/": {
+    name: "LinkedIn",
+  },
+  "https://www.instagram.com/baez0r/": {
+    name: "Instagram",
+  },
+  "https://prepain.mx/blog/author/angel/": {
+    name: "Prepa IN",
   },
 };
 
