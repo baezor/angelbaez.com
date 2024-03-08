@@ -1,23 +1,26 @@
 import Link from "next/link";
 
 const navItems = {
-  "/": {
-    name: "home",
+  "https://github.com/baezor": {
+    name: "github",
   },
-  "/work": {
-    name: "work",
+  "https://www.linkedin.com/in/baezor/": {
+    name: "linkedIn",
   },
-  "/blog": {
-    name: "blog",
+  "https://www.instagram.com/baez0r/": {
+    name: "instagram",
+  },
+  "https://prepain.mx/blog/author/angel/": {
+    name: "prepa in",
   },
 };
 
-export function Navbar() {
+export function Footer() {
   return (
-    <aside className="-ml-[8px] mb-16 tracking-tight">
-      <div className="lg:sticky lg:top-20">
+    <footer className="-ml-[8px] mt-16 tracking-tight">
+      <div className="relative">
         <nav
-          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+          className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto md:relative"
           id="nav"
         >
           <div className="flex flex-row space-x-0 pr-10">
@@ -35,6 +38,6 @@ export function Navbar() {
           </div>
         </nav>
       </div>
-    </aside>
+    </footer>
   );
 }
